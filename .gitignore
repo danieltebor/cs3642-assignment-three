@@ -1,0 +1,9 @@
+# Python Files
+*.pyc
+*.pyo
+*.pyd
+
+# IDE Files
+.vscode
+.idea
+.code-workspace
