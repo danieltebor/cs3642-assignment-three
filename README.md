@@ -547,7 +547,7 @@ tk.mainloop()
 ```
 
 ## Video Presentation
-A video presentation explaining the reasoning and workings of the code can be found [here](/assets/cs3642-assignment-three-presentation.mp4) or [downloaded]().
+A video presentation explaining the reasoning and workings of the code can be found [here](/assets/cs3642-assignment-three-presentation.mp4) or [downloaded](https://github.com/danieltebor/cs3642-assignment-three/raw/main/assets/cs3642-assignment-three-presentation.mp4).
 
 ## Building and Running
 Python 3.10.12 was used to build the project. It is likely that other versions also work.
