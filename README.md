@@ -546,6 +546,9 @@ predict_button = tk.Button(button_frame, text='Predict', width=14, command=predi
 tk.mainloop()
 ```
 
+## Video Presentation
+A video presentation explaining the reasoning and workings of the code can be found [here](/assets/cs3642-assignment-three-presentation.mp4) or [downloaded]().
+
 ## Building and Running
 Python 3.10.12 was used to build the project. It is likely that other versions also work.
 
