@@ -15,7 +15,7 @@ class BinaryPerceptron:
         
     def predict(self, input: np.ndarray) -> int:
         if len(input) != self._input_size:
-            raise ValueError('inputs must be the same size as input_size parameter')
+            raise ValueError(f'input must be the same size as input_size parameter (expected {self._input_size}, got {len(input)})')
         
         # Append bias neuron.
         input = np.append(input, 1)
@@ -63,3 +63,7 @@ class BinaryPerceptron:
     @property
     def learning_rate(self) -> float:
         return self._learning_rate
+    
+    @learning_rate.setter
+    def learning_rate(self, value: float):
+        self._learning_rate = value
